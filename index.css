@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common style */
+.button {
+    background-color: #EC6C24;
+}
+/* header area styel */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+.navigation {
+    display:flex
+}
+.navigation li {
+    list-style: none;
+    margin: 30px;
+} 
+.navigation li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.banner-area {
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    top: 60%;
+}
+.banner-text h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.banner-text button {
+    color: black;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* about area style  */
+.about-area {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+.about{
+    background-color: #454242;
+   height: 100vh;
+   width: 100%;
+   color: white;
+     
+}
+.registration {
+    background-color: #403F41;
+   height: 100vh;
+   width: 100%;
+   color: white;
+}
+/* workshop area style */
+.workshop-text {
+     background-color: #D2D2D4;
+     
+}
+
+/* studio membership aree style */
+.membership-text {
+    background-color: #6D6E70;
+}
+.product-btn {
+    margin-top: -55px;
+}
+/* footer img */
+.footer-img {
+     height: 100vh;
+    width: 100vw;
+    background-image: url('images/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer {
+    background-color: #454242;
+   height: 90vh;
+   width: 100%;
+   color: white;
+}
+.footer-input {
+    height: 60px;
+    font-size: 25px;
+}
+.footer-btn {
+    background-color: #EC6C24;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer-address h1, h2 {
+    font-weight: 700;
+}
